@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import Body from './sections/body/body'
+import Body from './components/body/body'
+import Admin from './components/admin/admin'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -14,7 +15,8 @@ function App() {
 
   return (
     <> 
-     <Body />
+     {/* <Body /> */}
+     <Admin />
     </>
   )
 }

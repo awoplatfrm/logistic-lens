@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.footer{
+    background: linear-gradient(193deg, rgb(69,155,230),rgb(92, 104, 168));
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+   
+}
+.footer-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.section1-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+.quick-links-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.quick-links-container h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.quick-links-container ul{
+    list-style: none;
+}
+.quick-links-container ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.address-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.quick-links-container h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.quick-links-container p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.social-connect-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.social-connect-container h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.social-connect-container .social-icons {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.social-icons i{
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0 1rem;
+}
+
+.footer-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: linear-gradient(193deg, rgb(69,155,230),rgb(92, 104, 168));
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.section2-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    border-top: .1px solid #fff;
+    margin-top: 25px;
+
+}
+.section2-container p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+    padding: 10px;
+}

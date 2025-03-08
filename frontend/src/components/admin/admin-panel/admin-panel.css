@@ -1,0 +1,441 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.admin-panel-container{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.adminNav-container{
+    padding: 0;
+    margin: 0;
+}
+.admin-nav{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.nav-list{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    
+    /* border: .1px solid #000; */
+}
+.nav-list li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% ;
+}
+.nav-logo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav-logo a{
+    width: 100%;
+    height: 100%;
+    font-size: 60px;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    flex-direction: center;
+
+   
+}
+.nav-logo a img{
+    width: 120px;
+    height: 100px;
+    padding: 2px;
+}
+.admin-name{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    align-content: center;
+    gap: 10px;
+    /* border: .1px solid #000; */
+    padding: 0 5px;
+}
+.admin-name i{
+    display: flex;
+    justify-content: end;
+    margin-top: 0px;
+    width: 80%;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 50%;
+    /* background-color: #000; */
+    /* border: .1px solid #000; */
+    align-items: end;
+}
+.admin-name p{
+    display: flex;
+    justify-content:start;
+    text-align: end;
+    align-items: end;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+    width: 20%;
+    color: #2f2e43;
+    /* border: .1px solid #000; */
+}
+
+/* admin side nav and admin content*/
+
+.sideBar-adminContent{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* admin side nav */
+.admin-sideNav{
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    width: 20%;
+    height: 900px;
+    background-color: #2f2e43;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    color: aliceblue;
+    /* border: .1px solid #000; */
+}
+.admin-sideNav ul{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-content: start;
+    justify-content: start;
+    align-self: self-start;
+    border: .1px solid #000;
+
+}
+.admin-sideNav ul li{
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    justify-items: start;
+    align-content: start;
+    align-items: start;
+    border: .1px solid #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+.admin-sideNav ul li button{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    padding-left: 10px;
+    margin: o;
+    border: none;
+    background: none;
+    color: aliceblue;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    border: .1px solid #000;
+}
+.admin-sideNav ul li button p{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 450;
+    text-decoration: none;
+}
+.dashboard{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.dashboard i{
+    font-size: 20px;
+}
+.dashboard h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* Admin content*/
+.admin-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    padding: 10px;
+}
+
+.customer-list-add-customer{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.customer-list-add-customer h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+.customer-list-add-customer button{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    background: #459be6;
+    color: white;
+    border-radius: 5px;
+
+}
+.search{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.search p{
+    padding: 0;
+    margin: 0;
+    font-size: 20px
+}
+.search input{
+    width: 20%;
+    height: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    background: #f3f3f3;
+    border-radius: 5px
+}
+.table{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table table{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    
+}
+.table table th{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;   
+    border: none;
+    background: #f3f3f3;
+    border-radius: 5px;
+}
+.table table td{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    background: #f3f3f3;
+    border-radius: 5px;
+    margin: 0;
+    
+   
+}
+
+
+
+/* form styling*/
+
+.add-customer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.add-customer h3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 450;
+    color: #2f2e43;
+    /* background: #f3f3f3; */
+    border-radius: 5px;
+    margin: 0;
+    padding: 10px;
+}
+.form {
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* border: .1px solid black; */
+
+}
+.form form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    border-radius: 20px;
+    background: #fff;
+    border: .1px solid #e0e1dd;
+    position: relative;
+    z-index: 1;
+    /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) */
+}
+.form form .form-group{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    
+}
+.form form .form-group input{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.form form .buttons{
+    display: flex;
+    justify-content: center;
+    justify-content:space-between;
+    gap: 30px;
+}
+.form form .buttons button{
+    border: none;
+    border-radius: 10px;
+    background-color: #6c63ff;
+    cursor: pointer;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+    transition: all 0.3s ease 0s;
+}
+#back-button{
+    padding: 0;
+    margin: 0;
+    border: none;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: none;
+    /* background-color: #6c63ff; */
+    color: #6c63ff;
+    position: relative;
+    bottom: 70px;
+    right: 180px;
+
+   
+}
+#back-button i{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+#back-button:hover{
+    border: .1px solid #6c63ff;
+}
+
+
+
+.fill-form-image{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    /*   */
+
+}
+.fill-form-image img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+}

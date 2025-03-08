@@ -82,6 +82,7 @@
     color: white;
    background-image:linear-gradient(193deg, rgb(69,155,230),rgb(92, 104, 168));
 }
+
 @media (max-width: 450px) {
     #navbar-item{
         display: none;
